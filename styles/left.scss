@@ -1,0 +1,20 @@
+.left-icons{
+    max-height: 100%;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 50px 353px 200px;
+    justify-content: center;
+}
+.image-left{
+    width: 40%;
+    padding: 14px;
+}
+.image-left:hover{
+    background-color: #535354;
+}
+.left-bot{
+    display: grid;
+    grid-template-rows: 50px;
+    justify-content: center;
+    align-items: flex-end;
+}
