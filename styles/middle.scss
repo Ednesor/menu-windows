@@ -18,6 +18,10 @@
 .middle-icons::-webkit-scrollbar-track {
     background: transparent;
 }
+.middle-icons:hover.middle-icons::-webkit-scrollbar-track {
+    background: rgb(80, 80, 80);
+    border-radius: 1px;
+}
 
 .middle-icons::-webkit-scrollbar-thumb {
     background: #888;
