@@ -1,7 +1,8 @@
 @use 'left';
 @use 'middle';
+@use 'right';
 
-$font-menu: rgba(44, 44, 44, 0.897);;
+$font-menu: rgba(44, 44, 44, 0.897);
 $width-menu: 800px;
 $heigth-menu: 645px;
 
@@ -28,10 +29,7 @@ body{
     backdrop-filter: blur(20px);
 }
 
-.right-icons{
-    text-align: center;
-    // border: 1px solid white;
-}
+
 // p{
 //     border: 1px solid black;
 // }

@@ -85,6 +85,53 @@
   background-color: rgba(96, 97, 98, 0.768627451);
 }
 
+.right-icons {
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 12px;
+  color: white;
+}
+
+.right-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 5px;
+}
+
+.right-subcontainer .cont {
+  width: 290px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 10px;
+  margin-top: -5px;
+}
+
+.icon-right {
+  border: 2px solid transparent;
+  width: 89px;
+  height: 91px;
+  margin-top: 3px;
+  margin-right: 3px;
+  background-color: rgba(119, 119, 119, 0.342);
+}
+.icon-right img {
+  width: 30px;
+  margin-top: 20px;
+}
+.icon-right p {
+  width: 100%;
+}
+
+.icon-right:hover {
+  background-color: rgba(179, 179, 179, 0.342);
+  border: 2px solid rgb(153, 153, 153);
+}
+
+.right-name {
+  width: 100%;
+  text-align: left;
+}
+
 body {
   margin: 0;
   height: 100vh;
@@ -107,10 +154,6 @@ body {
   min-width: 700px;
   padding: 0;
   backdrop-filter: blur(20px);
-}
-
-.right-icons {
-  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

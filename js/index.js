@@ -1,0 +1,1 @@
+//TODO: generar iconos a partir de un objeto
